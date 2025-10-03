@@ -52,7 +52,7 @@ Run the script with the full path to the manifest as an argument. This validates
 | **-Clean**                   | Force re-download of WinGet and dependencies                               |
 
 > [!IMPORTANT]
-> The `-GitHubToken` option has been removed. Use the `WINGET_PKGS_GITHUB_TOKEN` environment variable instead.
+> The `-GitHubToken` option has been removed. Use the `winget validate --manifest <Path to manifest>` environment variable instead.
 
 ---
 
